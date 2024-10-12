@@ -496,6 +496,10 @@ button {
   fill: #f4f4fd;
 }
 
+.footer-bottom-block {
+  margin-left: auto;
+}
+
 .footer-text-block {
   margin-bottom: 16px;
   font-weight: 500;
@@ -744,7 +748,9 @@ button {
   margin-right: 8px;
 }
 
-.review-form-checkbox:checked + .review-form-custom-checkbox {
+.review-form-checkbox:checked
+  + .review-form-custom-checkbox-label
+  > .review-form-custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
