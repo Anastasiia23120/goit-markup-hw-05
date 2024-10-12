@@ -749,7 +749,7 @@ button {
 }
 
 .review-form-checkbox:checked
-  + .review-form-custom-checkbox-label
+  + .review-form-checkbox-label
   > .review-form-custom-checkbox {
   background-color: #404bbf;
   border: none;
