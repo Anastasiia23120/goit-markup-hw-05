@@ -634,5 +634,6 @@ button {
 
 .review-form-input-icon:focus {
   fill: #4d5ae5;
+  border-radius: 0%;
 }
 /* ==================== /MODAL WINDOW STYLES ==================== */
